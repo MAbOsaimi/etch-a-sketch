@@ -1,13 +1,15 @@
 body {
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     width: 100vh;
-    height: 100vh;
+    height: 100vh; */
 }
 #container {
     display: flex;
+    position: relative;
+    left: calc(50% - 1000px / 2);
     flex: 1;
     flex-wrap: wrap;
     width: 1000px;
@@ -15,9 +17,13 @@ body {
     border-style: solid;
 }
 
+.squares-row {
+    display: flex;
+    width: 100%;
+}
 .square {
     border-style: solid;
-    width: 46.382px;
+    width: 100%;
 }
 
 .square:hover {
