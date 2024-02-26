@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+}
+#container {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    width: 1000px;
+    height: 700px;
+    border-style: solid;
+}
+
+.square {
+    border-style: solid;
+    width: 46.382px;
+}
+
+.square:hover {
+    background-color: red;
+}
