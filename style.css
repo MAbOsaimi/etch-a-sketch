@@ -48,8 +48,8 @@ body {
     width: 100%;
 }
 .square {
-    border-style: solid;
     width: 100%;
+    filter: brightness(var(--square-brightness));
 }
 
 .square:hover {

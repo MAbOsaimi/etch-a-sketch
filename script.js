@@ -49,6 +49,9 @@ function makeGrid(width, height) {
               currentValue.style.getPropertyValue("--square-brightness"),
             ) - 10;
       currentValue.style.setProperty("--square-brightness", `${brightness}%`);
+      currentValue.style.backgroundColor = currentValue.style.getPropertyValue(
+        "--square-background-color",
+      );
     });
   });
 }
